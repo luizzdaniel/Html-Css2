@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: dimgray;
+        }
+
+        td, th {
+            
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        .num {
+            text-align: right;
+        }
+    </style>
+</head>
+<body>
+    <h1>Uso de tabela grandes</h1>
+    <!--
+        ANATOMIA PARA TABELAS GRANDES 
+        TABLE
+            THEAD
+                 TR, TD, TH
+            TBODY
+                 TR, TD, TH
+            TFOOT
+                 TR, TD, TH
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>Município</th>
+                <th>População</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Aracaju</td>
+                <td class="num">602 757</td>
+            </tr>
+            <tr>
+                <td>Nossa Senhora do Socorro</td>
+                <td class="num">192 330</td>
+            </tr>
+            <tr>
+                <td>Itabaiana</td>
+                <td class="num">103 439
+                </td>
+            </tr>
+            <tr>
+                <td>Lagarto</td>
+                <td class="num">101 579
+                </td>
+            </tr>
+            <tr>
+                <td>São Cristóvão</td>
+                <td class="num">95 612</td>
+            </tr>
+            <tr>
+                <td>Estância</td>
+                <td class="num">65 078
+                </td>
+            </tr>
+            <tr>
+                <td>Tobias Barreto</td>
+                <td class="num">50 905
+                </td>
+            </tr>
+            <tr>
+                <td>Simão Dias</td>	
+                <td class="num">42 578</td>
+            </tr>
+            <tr>
+            <td> Barra dos Coqueiros</td>
+            <td  class="num">41 511
+            </td>
+            <tr>
+                <td>Nossa Senhora da Glória</td>
+                <td class="num">41 202
+                </td>
+            </tr>
+            <tr>
+                <td>Itabaianinha</td>
+                <td class="num">40 678</td>
+            </tr>
+            <tr>
+                <td> Itaporanga d'Ajuda</td>
+                <td class="num">34 411
+                </td>
+            </tr>
+            <tr>
+                <td>Poço Redondo</td>
+                <td class="num">33 439</td>
+            </tr>
+            <tr>
+                <td>Capela</td>
+                <td class="num">31 645</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <th>Total de Habitantes</th>
+            <td class="num"><strong>0000</strong></td>
+        </tfoot>
+    </table>             
+</body>
+</html>
