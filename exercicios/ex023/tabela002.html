@@ -12,10 +12,17 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         thead {
             background-color: rgb(70, 69, 69);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -0.1%;
+            background-color:  rgb(70, 69, 69);
         }
 
         td, th {
@@ -41,6 +48,7 @@
 
         .num {
             text-align: right;
+            padding-right: 15px;
         }
     </style>
 </head>
@@ -128,11 +136,51 @@
                 <td>Capela</td>
                 <td class="num">31 645</td>
             </tr>
+            <tr>
+                <td>Canindé de São Francisco</td>
+                <td class="num">26 834</td>
+            </tr>
+            <tr>
+                <td>Propriá</td>
+                <td class="num">26 618</td>
+            </tr>
+            <tr>
+                <td>Porto da Folha</td>
+                <td class="num">26 576</td>
+            </tr>
+            <tr>
+                <td>Nossa Senhora das Dores</td>
+                <td class="num">24 996</td>
+            </tr>
+            <tr>
+                <td>Boquim</td>
+                <td class="num">24 638</td>
+            </tr>
+            <tr>
+                <td>Laranjeiras</td>
+                <td class="num">23 975</td>
+            </tr>
+            <tr>
+                <td>Umbaúba</td>
+                <td class="num">23 917</td>
+            </tr>
+            <tr>
+                <td>Poço Verde</td>
+                <td class="num">21 794</td>
+            </tr>
+            <tr>
+                <td>Salgado</td>
+                <td class="num">20 279</td>
+            </tr>
+            <tr>
+                <td>Aquidabã</td>
+                <td class="num">20 131</td>
+            </tr>
         </tbody>
         <tfoot>
             <th scope="row">Total de Habitantes</th>
             <td class="num"><strong>0000</strong></td>
         </tfoot>
-    </table>             
+    </table>      
 </body>
 </html>
